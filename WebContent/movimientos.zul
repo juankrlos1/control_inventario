@@ -1,0 +1,64 @@
+<?page title="Movimientos Inventario" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window title="Movimientos Inventario" border="normal">
+	<label value ="Buscar  " />
+	<separator orient="vertical" width="15px"></separator>
+	<textbox id="tbxSearch"></textbox>
+	<separator orient = "horizontal" height="30px"></separator>
+	
+	<listbox width="100%">
+		<listhead>
+
+			<listheader label="Producto" />
+			<listheader label="fecha entrada" />
+			<listheader label="cantidad entrada" />
+			<listheader label="fecha salida" />
+			<listheader label="cantidad salida" />
+
+
+		</listhead>
+
+		<listitem>
+
+			<listcell label="Computadoras" />
+			<listcell label=" 17/01/2020" />
+			<listcell label="100" />
+			<listcell label="22/01/2020" />
+			<listcell label=" 25 unidades " />
+
+		</listitem>
+
+		<listitem>
+
+			<listcell label="Audifonos" />
+			<listcell label="18/01/2020" />
+			<listcell label="22" />
+			<listcell label="18/01/2020" />
+			<listcell label="20" />
+
+		</listitem>
+
+		<listitem>
+
+			<listcell label="Juegos" />
+			<listcell label="19/01/2020" />
+			<listcell label="50" />
+			<listcell label="30/01/2020" />
+			<listcell label="29 unidades" />
+
+		</listitem>
+		
+		<listitem>
+
+			<listcell label="Consolas" />
+			<listcell label="16/02/2020" />
+			<listcell label="30" />
+			<listcell label="16/03/2020" />
+			<listcell label="19" />
+
+		</listitem>
+
+
+	</listbox>
+</window>
+</zk>

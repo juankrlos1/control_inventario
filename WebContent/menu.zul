@@ -1,0 +1,19 @@
+<?page title="Menu" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<style>
+		.fisheyeDemo { margin : 5px 40px; position : relative; }
+	</style>
+	<window title="Menu control de inventario" border="normal"
+		mode="highlighted" position="center,center" height="50%" width="50%"
+		apply="com.nubteam.inventario.controller.MenuController">
+		<div align="center">
+		<fisheyebar id="fisheyebar" sclass="fisheyeDemo" itemWidth="90"
+				itemHeight="90" itemMaxHeight="170" itemMaxWidth="170">
+				<fisheye id="fshBodegas" label="Bodegas" image="img/bodega.png" />
+				<fisheye id="fshMovimientos" label="Movimientos" image="img/movimiento.png" />
+				<fisheye id="fshExistencias" label="Existencias" image="img/existencia.png" />
+				<fisheye id="fshArticulos" label="Articulos" image="img/articulo.png" />
+			</fisheyebar>
+		</div>
+	</window>
+</zk>
