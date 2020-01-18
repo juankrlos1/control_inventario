@@ -1,0 +1,46 @@
+<?page title="Existencias en inventario" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<window title="Existencias en inventario" border="normal">
+		<label value="Buscar" />
+		<separator orient="vertical" width="15px"></separator>
+		<textbox id="tbxSearch"></textbox>
+		<separator orient="horizontal" height="25px"></separator>
+
+		<listbox width="100%">
+
+			<listhead>
+
+				<listheader label="Nombres" />
+				<listheader label="Tipo" />
+				<listheader label="Cantidad disponible" />
+
+			</listhead>
+
+			<listitem>
+
+				<listcell label="Consolas" />
+				<listcell label="Hardward" />
+				<listcell label="19" />
+
+			</listitem>
+
+			<listitem>
+
+				<listcell label="Controles" />
+				<listcell label="Hardward" />
+				<listcell label="33" />
+
+			</listitem>
+
+			<listitem>
+
+			<listcell label="CD´S" />
+				<listcell label="Hardward" />
+				<listcell label="50" />
+			
+
+			</listitem>
+		</listbox>
+
+	</window>
+</zk>
