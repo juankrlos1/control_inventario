@@ -1,0 +1,49 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<window title="new page title" border="normal">
+		New Content Here!
+		<grid>
+			<rows>
+				<row>
+					<label value="Codigo" />
+					<textbox id="txtCodigo" />
+				</row>
+				<row>
+					<label value="Nombre" />
+					<textbox id="txtNombre" width="60" />
+				</row>
+
+				<row>
+					<label value="Direccion" />
+					<textbox id="txtDireccion" width="60" />
+				</row>
+
+				<row>
+					<label value="Telefono" />
+					<textbox id="txtTelefono" width="60" />
+				</row>
+
+				<row>
+					<button id="btnGuardar" label="Guardar" width="60" />
+				</row>
+
+				<row>
+					<button id="btnEliminar" label="Eliminar"
+						width="60" />
+				</row>
+
+				<row>
+					<button id="btnActualizar" label="Actualizar"
+						width="60" />
+				</row>
+
+				<row>
+					<button id="btnBuscar" label="Buscar" width="60" />
+				</row>
+
+			</rows>
+		</grid>
+
+
+	</window>
+</zk>
