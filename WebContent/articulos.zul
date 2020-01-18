@@ -1,6 +1,28 @@
 <?page title="Mantenimiento de articulos" contentType="text/html;charset=UTF-8"?>
 <zk>
-<window title="Mantenimiento de articulos" border="normal">
+	<window title="Mantenimiento de articulos" border="normal">
 
-</window>
+
+		<listbox id="box" width="100%">
+			<listhead>
+				<listheader label="Articulo" sort="auto" />
+				<listheader label="Descripcion" sort="auto" />
+				<listheader label="Tipo" sort="auto" />
+				<listheader label="Estado" sort="auto" />
+				<listheader label="Fecha" sort="auto" />
+			</listhead>
+			<listitem>
+				<listcell label="Switch" />
+				<listcell label="Nintendo Switch" />
+				<listcell label="Knopf (October 30, 2011)" />
+				<listcell label="608 pages" />
+			</listitem>
+			<listitem>
+				<listcell label="Philip Hensher" />
+				<listcell label="The Fit" />
+				<listcell label="HarperPerennial (April 4, 2005)" />
+				<listcell label="240 pages" />
+			</listitem>			
+		</listbox>
+	</window>
 </zk>
