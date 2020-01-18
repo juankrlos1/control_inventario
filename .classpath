@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+<<<<<<< HEAD
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-openjdk-amd64">
+=======
+<<<<<<< HEAD
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_231">
+=======
+<<<<<<< HEAD
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_171">
+=======
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_231">
+>>>>>>> f39fcf49449869e2c61158e26102a605aa144790
+>>>>>>> 07a884723a6b2bf0e2974a1b3fea2b2644a08b0d
+>>>>>>> d494cf98180489b411d0d73d10bce1b4ba22624f
 		<attributes>
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
